@@ -7,7 +7,8 @@
 # Inherit some common CorvusOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-EXTRA_FOD_ANIMATIONS := true
+FOD_ANIMATIONS := true
+HAS_FOD := true
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
