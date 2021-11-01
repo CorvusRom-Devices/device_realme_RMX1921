@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "kaderbava/android_kernel_realme_sdm710",
+    "target_path": "kernel/realme/sdm710",
+    "branch": "13"
+  },
+  {
+    "remote": "gitlab",
+    "repository" : "kaderbava/vendor_realme_RMX1921",
+    "target_path": "vendor/realme/RMX1921",
+    "branch": "13"
+  },
+  {
+    "remote" : "github",
+    "repository" : "LineageOS/android_packages_apps_Aperture",
+    "target_path": "packages/apps/Aperture",
+    "branch" : "lineage-20.0"
+  },
+  {
+    "remote" : "github",
+    "repository" : "ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r416183b1",
+    "branch" : "arrow-11.0"
+  }
+]
