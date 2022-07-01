@@ -175,6 +175,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor
 
+# Google Dialer Call Recording Support
+PRODUCT_PACKAGES += \
+    com.google.android.apps.dialer.call_recording_audio.features.xml
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
