@@ -15,8 +15,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 RAVEN_LAIR := Official
 CORVUS_MAINTAINER := KaderBava
 TARGET_INCLUDE_PIXEL_CHARGER := true
-USE_PROTON := yes
 FOD_RESOURCES := true
+DISABLE_COLUMBUS := true
 
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1921
